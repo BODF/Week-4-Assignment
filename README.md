@@ -5,14 +5,14 @@ date: "10/27/2018"
 output: html_document
 ---
 
-##Files Included
+## Files Included
 * *AccelerometerAnalysis.R* will pull training and test datasets together, label
 them, and output the mean values as a tidy matrix.
 
 * *Codebook.txt* is an updated version of the original dataset's codebook. It
 contains the variables relevant to the R script provided.
 
-##Usage
+## Usage
 Run *AccelerometerAnalysis.R* using BASH (`$Rscript AccelerometerAnalysis.R`) or
 run it from the R console (`>source(AcceleromterAnalysis.R`)).
 

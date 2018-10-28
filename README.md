@@ -21,6 +21,5 @@ Our end goal is to output a tidy matrix of mean values. In the process of doing
 that, we take in a matrix much larger and must sift the data. Several variables 
 are labeled "mean." My script only keeps those that are labeled as being direct 
 averages of some variable, as opposed to being an angle based on average motion.
-
-The grading rubric does not make clear which columns must be grabbed, only that 
-the selection must be clear and understandable.
+The end output is a matrix that takes the mean of the means and standard
+deviations, with respect to activities described in the codebook.

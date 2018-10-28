@@ -60,23 +60,37 @@ were measured:
 
 End Quotation
 
+There were six activities measured, described here:
+
+* Walking
+
+* Walking Upstairs
+
+* Walking Downstairs
+
+* Sitting
+
+* Standing
+
+* Laying
+
 ## Data Analysis (Explanation of AccelerometerAnalysis.R)
 List of actions:
 
-*The R script checks if the data are downloaded, if not it grabs the data. In
+* The R script checks if the data are downloaded, if not it grabs the data. In
 either case, the data are loaded into R.
 
-*The column names are added in from the "features.txt" file after some parsing
+* The column names are added in from the "features.txt" file after some parsing
 
-*The mean and standard deviation of the data (except angles based on mean values)
+* The mean and standard deviation of the data (except angles based on mean values)
 are selected.
 
-*The activities of each row are defined in a new column
+* The activities of each row are defined in a new column
 
-*Both the test and training data sets are merged by rows (`rbind`)
+* Both the test and training data sets are merged by rows (`rbind`)
 
-*The data from all the subjects are then grouped by the "Activity" column and the
+* The data from all the subjects are then grouped by the "Activity" column and the
 mean is taken for each variable.
-        +The resulting data frame is the output of this R script. It is saved
+        + The resulting data frame is the output of this R script. It is saved
         in a space delimited file called "Combined_Activity_Means.txt" in a new
         folder called "Data_Analysis"

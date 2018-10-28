@@ -60,7 +60,7 @@ were measured:
 
 End Quotation
 
-There were six activities measured, described here:
+### There were six activities measured, described here:
 
 * Walking
 

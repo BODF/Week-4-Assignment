@@ -5,8 +5,8 @@ date: "10/28/2018"
 output: html_document
 ---
 
-# Most of the following is based off of the original codebookcalled features_info.txt
-Frankly, most of the below is a direct quotation with some modification to
+# Description of Variables
+Most of the below is a direct quotation from 'features_info.txt' with some modification to
 match the review criteria: "...a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information"
 
 See the end of this codebook for an explanation of the analysis script steps.

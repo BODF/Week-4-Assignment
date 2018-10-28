@@ -74,7 +74,7 @@ End Quotation
 
 * Laying
 
-## Data Analysis (Explanation of AccelerometerAnalysis.R)
+## Data Analysis (Explanation of run_analysis.R)
 List of actions:
 
 * The R script checks if the data are downloaded, if not it grabs the data. In

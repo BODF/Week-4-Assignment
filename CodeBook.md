@@ -5,8 +5,7 @@ date: "10/28/2018"
 output: html_document
 ---
 
-# **Most of the following is based off of the original codebook** called
-# features_info.txt
+# Most of the following is based off of the original codebookcalled features_info.txt
 Frankly, most of the below is a direct quotation with some modification to
 match the review criteria: "...a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information"
 
@@ -57,12 +56,13 @@ were measured:
 >tBodyGyroJerkMean
 >
 >The complete list of variables of each feature vector is available in 'features.txt'
-**NOTE that 'features.txt' will be downloaded by the analysis script provided.
+*NOTE that 'features.txt' will be downloaded by the analysis script provided.*
 
 End Quotation
 
 ## Data Analysis (Explanation of AccelerometerAnalysis.R)
 List of actions:
+
 *The R script checks if the data are downloaded, if not it grabs the data. In
 either case, the data are loaded into R.
 
